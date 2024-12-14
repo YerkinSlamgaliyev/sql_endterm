@@ -1,0 +1,95 @@
+CREATE TABLE tableName (
+    Trip_Distance_km	DOUBLE PRECISION,
+    Time_of_Day	VARCHAR(512),
+    Day_of_Week	VARCHAR(512),
+    Passenger_Count	INT,
+    Traffic_Conditions	VARCHAR(512),
+    Weather	VARCHAR(512),
+    Base_Fare	DOUBLE PRECISION,
+    Per_Km_Rate	DOUBLE PRECISION,
+    Per_Minute_Rate	DOUBLE PRECISION,
+    Trip_Duration_Minutes	DOUBLE PRECISION,
+    Trip_Price	DOUBLE PRECISION
+);
+
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('44.85', 'Evening', 'Weekend', '1', 'Medium', 'Rain', '3.83', '0.51', '0.29', '52.52', '41.9343');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('30.3', 'Night', 'Weekend', '1', 'Low', 'Clear', '4.5', '1.64', '0.35', '51.65', '72.2695');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('46.17', 'Afternoon', 'Weekday', '4', 'Medium', 'Clear', '4.13', '1.57', '0.28', '83.15', '99.8989');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('3.22', 'Afternoon', 'Weekday', '3', 'Low', 'Rain', '2.83', '1.63', '0.31', '93.78', '37.1504');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('16.94', 'Afternoon', 'Weekday', '3', 'Medium', 'Snow', '3.92', '1.93', '0.42', '100.24', '78.715');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('14.3', 'Night', 'Weekday', '3', 'High', 'Clear', '4.99', '0.99', '0.37', '108.2', '59.181');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('18.48', 'Afternoon', 'Weekday', '4', 'Medium', 'Clear', '2.84', '1.37', '0.39', '106.41', '69.6575');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('146.0670472', 'Afternoon', 'Weekday', '2', 'Medium', 'Clear', '4.79', '0.73', '0.3', '60.81', '320.9586636');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('27.59', 'Evening', 'Weekend', '1', 'Medium', 'Rain', '2.07', '1.03', '0.46', '67.33', '61.4595');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('7.91', 'Morning', 'Weekday', '4', 'Medium', 'Clear', '4.09', '1.55', '0.47', '110.69', '68.3748');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('40.31', 'Morning', 'Weekday', '4', 'Medium', 'Clear', '4.18', '1.34', '0.12', '108.49', '71.2142');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('38.84', 'Morning', 'Weekend', '2', 'Low', 'Clear', '4.93', '1.34', '0.25', '50.21', '69.5281');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('1.27', 'Morning', 'Weekday', '2', 'High', 'Clear', '4.47', '0.62', '0.16', '37.99', '11.3358');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('35.64', 'Night', 'Weekend', '1', 'High', 'Rain', '3.94', '0.62', '0.1', '104.02', '36.4388');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('38.79', 'Afternoon', 'Weekday', '2', 'Low', 'Clear', '3.95', '1.88', '0.33', '82.93', '104.2421');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('6.68', 'Night', 'Weekend', '2', 'Medium', 'Clear', '3.32', '1.35', '0.38', '12.08', '16.9284');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('41.79', 'Night', 'Weekend', '3', 'High', 'Clear', '4.6', '1.77', '0.11', '86.95', '88.1328');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('8.64', 'Afternoon', 'Weekend', '2', 'Medium', 'Clear', '2.55', '1.71', '0.48', '89.33', '60.2028');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('9.91', 'Evening', 'Weekday', '2', 'High', 'Clear', '2.32', '1.26', '0.34', '41.72', '28.9914');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('9.99', 'Night', 'Weekday', '4', 'High', 'Clear', '4.33', '0.85', '0.43', '34', '27.4415');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('15.91', 'Morning', 'Weekday', '4', 'Low', 'Clear', '4.42', '1.77', '0.21', '114.93', '56.716');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('26.71', 'Afternoon', 'Weekend', '4', 'Low', 'Rain', '4.3', '1.59', '0.2', '111.18', '69.0049');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('19.35', 'Morning', 'Weekday', '3', 'Low', 'Clear', '3.56', '0.8', '0.32', '53.82', '36.2624');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('36.87', 'Evening', 'Weekend', '1', 'High', 'Clear', '2.7', '1.21', '0.15', '37.27', '52.9032');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('30.98', 'Afternoon', 'Weekend', '1', 'Low', 'Rain', '4.5', '0.84', '0.25', '57.02', '44.7782');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('138.0983279', 'Evening', 'Weekend', '4', 'Medium', 'Rain', '2.24', '1.75', '0.32', '94.86', '280.8773016');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('105.94355', 'Night', 'Weekend', '2', 'Low', 'Rain', '3.94', '1.69', '0.32', '23.03', '201.8695092');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('18.95', 'Night', 'Weekday', '1', 'Low', 'Clear', '3.38', '0.78', '0.39', '54.04', '39.2366');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('3.28', 'Evening', 'Weekday', '2', 'Medium', 'Clear', '2.88', '1.76', '0.2', '78.04', '24.2608');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('30.77', 'Morning', 'Weekday', '1', 'Low', 'Clear', '3.64', '1.33', '0.13', '109.6', '58.8121');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('9.36', 'Afternoon', 'Weekday', '1', 'Medium', 'Clear', '2.4', '1.85', '0.15', '7.07', '20.7765');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('6.98', 'Afternoon', 'Weekend', '2', 'Low', 'Clear', '2.32', '0.78', '0.18', '72.37', '20.791');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('25.26', 'Evening', 'Weekday', '2', 'High', 'Clear', '3.95', '1.71', '0.12', '82.53', '57.0482');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('2.69', 'Afternoon', 'Weekday', '4', 'Low', 'Clear', '4.6', '1.95', '0.34', '97.49', '42.9921');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('48.32', 'Morning', 'Weekday', '2', 'Low', 'Clear', '2.49', '0.61', '0.44', '67.25', '61.5552');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('40.61', 'Afternoon', 'Weekday', '1', 'Low', 'Clear', '2.31', '0.88', '0.38', '42.25', '54.1018');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('5.79', 'Evening', 'Weekday', '4', 'Low', 'Clear', '4.63', '1.83', '0.24', '107.07', '40.9225');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('33.46', 'Afternoon', 'Weekend', '2', 'Low', 'Rain', '2.23', '0.63', '0.12', '64.07', '30.9982');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('26.48', 'Morning', 'Weekend', '3', 'Medium', 'Clear', '2.15', '1.25', '0.2', '47.97', '44.844');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('27.79', 'Evening', 'Weekday', '2', 'Low', 'Clear', '2.77', '0.72', '0.43', '49.63', '44.1197');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('10.06', 'Morning', 'Weekday', '2', 'Medium', 'Rain', '2.41', '1.16', '0.38', '16', '20.1596');
+INSERT INTO tableName (Trip_Distance_km, Time_of_Day, Day_of_Week, Passenger_Count, Traffic_Conditions, Weather, Base_Fare, Per_Km_Rate, Per_Minute_Rate, Trip_Duration_Minutes, Trip_Price) VALUES ('38.98', 'Afternoon', 'Weekday', '3', 'Low', 'Clear', '3.16', '1.28', '0.26', '15.47', '57.0766');
+
+SELECT Time_of_Day, AVG(Trip_Price) AS Avg_Trip_Price
+FROM tableName
+GROUP BY Time_of_Day
+ORDER BY Avg_Trip_Price DESC;
+
+SELECT Day_of_Week, SUM(Trip_Duration_Minutes) AS Total_Trip_Duration
+FROM tableName
+GROUP BY Day_of_Week
+ORDER BY Total_Trip_Duration DESC;
+
+SELECT Weather, AVG(Trip_Price) AS Avg_Trip_Price
+FROM tableName
+WHERE Weather IS NOT NULL
+GROUP BY Weather
+ORDER BY Avg_Trip_Price DESC;
+
+SELECT AVG(Trip_Price / Passenger_Count) AS Avg_Price_Per_Passenger
+FROM tableName
+WHERE Passenger_Count > 0 AND Trip_Price IS NOT NULL;
+
+SELECT (COUNT(*) * 100.0 / (SELECT COUNT(*) FROM tableName)) AS High_Traffic_Percentage
+FROM tableName
+WHERE Traffic_Conditions = 'High';
+
+SELECT 
+    CASE
+        WHEN Trip_Distance_km < 10 THEN '0-10 km'
+        WHEN Trip_Distance_km >= 10 AND Trip_Distance_km < 20 THEN '10-20 km'
+        WHEN Trip_Distance_km >= 20 AND Trip_Distance_km < 30 THEN '20-30 km'
+        WHEN Trip_Distance_km >= 30 AND Trip_Distance_km < 40 THEN '30-40 km'
+        ELSE '40+ km'
+    END AS Distance_Range,
+    AVG(Trip_Price) AS Avg_Trip_Price
+FROM tableName
+WHERE Trip_Distance_km IS NOT NULL AND Trip_Price IS NOT NULL
+GROUP BY Distance_Range
+ORDER BY Distance_Range;
+
